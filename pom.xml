@@ -11,6 +11,7 @@
 
     <modules>
         <module>01_sharding-jdbc-simple</module>
+        <module>02_sharding-jdbc-horizontal-database</module>
     </modules>
 
 </project>

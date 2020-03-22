@@ -40,7 +40,22 @@
 
 
 
+准备看 25  04-分片策略配置 https://ke.qq.com/webcourse/index.html#cid=446602&term_id=100533849&taid=3711401500004490&type=1024&vid=5285890794287524204
+
+建model 03：垂直分表
+
+
+
+绑定表操作下也：两张不同的表分片键用同一个字段 试试
+
+
+
 ## 代码：
 
 水平分表：01_sharding-jdbc-simple
 
+水平分库：02_sharding-jdbc-horizontal-database：
+
+> 在01_sharding-jdbc-simple的基础上修改
+>
+> 先根据user_id分库，再根据order_id分表
