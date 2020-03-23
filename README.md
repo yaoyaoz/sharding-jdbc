@@ -40,9 +40,20 @@
 
 
 
-准备看 25  04-分片策略配置 https://ke.qq.com/webcourse/index.html#cid=446602&term_id=100533849&taid=3711401500004490&type=1024&vid=5285890794287524204
-
 建model 03：垂直分表
+
+新建数据库：user_db，表：t_user
+
+建model 04：公共表
+
+```
+# 指定t_dict为公共表
+spring.shardingsphere.sharding.broadcast-tables=t_dict
+```
+
+
+
+准备看： 28 	07-理解读写分离
 
 
 
