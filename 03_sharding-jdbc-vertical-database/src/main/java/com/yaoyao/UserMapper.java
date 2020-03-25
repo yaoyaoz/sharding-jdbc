@@ -8,7 +8,7 @@ import org.apache.ibatis.annotations.Mapper;
  * Description:
  * Date: 2020年03月24日
  *
- * @author zhouxinyao
+ * @author yaoyao
  * @version 1.0.0
  * @since 1.8
  */

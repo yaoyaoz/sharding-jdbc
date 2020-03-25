@@ -40,19 +40,6 @@
 
 
 
-建model 03：垂直分表
-
-新建数据库：user_db，表：t_user
-
-建model 04：公共表
-
-```
-# 指定t_dict为公共表
-spring.shardingsphere.sharding.broadcast-tables=t_dict
-```
-
-
-
 准备看： 28 	07-理解读写分离
 
 
@@ -70,3 +57,7 @@ spring.shardingsphere.sharding.broadcast-tables=t_dict
 > 在01_sharding-jdbc-simple的基础上修改
 >
 > 先根据user_id分库，再根据order_id分表
+
+垂直分库：03_sharding-jdbc-vertical-database
+
+公共表：04_sharding-jdbc-common-table
