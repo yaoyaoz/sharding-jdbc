@@ -61,3 +61,5 @@
 垂直分库：03_sharding-jdbc-vertical-database
 
 公共表：04_sharding-jdbc-common-table
+
+绑定表是怎么操作的呢？迪卡尔积。05_sharding-jdbc-binding-table：没成功，会报错

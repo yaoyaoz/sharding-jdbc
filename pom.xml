@@ -14,6 +14,7 @@
         <module>02_sharding-jdbc-horizontal-database</module>
         <module>03_sharding-jdbc-vertical-database</module>
         <module>04_sharding-jdbc-common-table</module>
+        <module>05_sharding-jdbc-binding-table</module>
     </modules>
 
 </project>
